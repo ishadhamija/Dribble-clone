@@ -4,215 +4,1020 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    padding: 0.1rem 4rem;
-    max-width: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 4rem;
+  max-width: 100%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
-nav > img{
-    width: 10%;
-    margin-right: 5%;
-    max-width: 100%;
+nav > img {
+  width: 10%;
+  margin-right: 5%;
+  max-width: 100%;
 }
 
-nav .tags{
-    display: flex;
-    gap: 1.5rem;
-    font-weight: 600;
+nav .tags {
+  display: flex;
+  gap: 1.5rem;
+  font-weight: 600;
 }
 
-nav .btn{
-    margin-left: auto;
-    display: flex;
-    gap: 1rem;
-    font-weight: 700;
+nav .btn {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+  font-weight: 700;
 }
 
-nav .btn #btn2{
-    color: white;
-    background-color: black;
-    border: 1px solid;
-    padding: 0.5rem;
-    width: 5.7rem;
-    border-radius: 3rem;
+nav .btn #btn2 {
+  color: white;
+  background-color: black;
+  border: 1px solid;
+  padding: 0.5rem;
+  width: 5.7rem;
+  border-radius: 3rem;
 }
 
-nav .btn #btn2:hover{
-    border: none;
-    color: black;
-    background-color: white;
+nav .btn #btn2:hover {
+  border: none;
+  color: black;
+  background-color: white;
 }
 
-#section1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 4rem;
+#section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4rem;
 }
 
-#section1 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 4.3rem;
-    line-height: 5rem;
+#section1 h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 4.3rem;
+  line-height: 5rem;
 }
 
-#section1 h1 span{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#section1 h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#section1 h6{
-    font-weight: 400;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#section1 h6 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
-#section1 h6 span{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#section1 h6 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#section1 .search_bar{
-    border-radius: 3rem;
-    background-color: #f3f3f6;
-    display: flex;
-    align-items: center;
-    margin-top: 3rem;
-    padding: 1.5rem;
-    width: 53%;
-    gap: 1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 3.7rem;
+#section1 .search_bar {
+  border-radius: 3rem;
+  background-color: #f3f3f6;
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  width: 53%;
+  gap: 1rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  height: 3.7rem;
 }
 
-#section1 .search_bar input{
-    width: 80%;
-    height: auto;
-    outline: none;
+#section1 .search_bar input {
+  width: 80%;
+  height: auto;
+  outline: none;
 }
 
-#section1 .search_bar input ::placeholder{
-border: none;
+#section1 .search_bar input ::placeholder {
+  border: none;
 }
-#section1 .search_bar:hover{
-    background-color: white;
-}
-
-.search_bar span{
-    margin-left: auto;
-    font-weight: 600;
-    font-size: 1.1rem;
+#section1 .search_bar:hover {
+  background-color: white;
 }
 
-.search_bar button{
-    font-size: 1.1rem;
-    background-color: #EC5E95;
-    border-radius: 50%;
-    height: 5vh;
-    width: 2.5vw;
-    color: white;
+.search_bar span {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.search_bar button {
+  font-size: 1.1rem;
+  background-color: #ec5e95;
+  border-radius: 50%;
+  height: 5vh;
+  width: 2.5vw;
+  color: white;
 }
 
 /* now comes trending search */
 
-#section1 .search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 1.5rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#section1 .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
-#section1 .search p{
-    color: #A1A1BD;
-    font-size: 1rem;
-    font-weight: 400;
+#section1 .search p {
+  color: #a1a1bd;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-#section1 .search a{
-    background-color: #f3f3f6;
-    width: 6.9vw;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4.3vh;
-    padding: 0.2rem;
-    font-weight: 400;
-    font-size: 1rem;
-    border-radius: 4rem;
+#section1 .search a {
+  background-color: #f3f3f6;
+  width: 6.9vw;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.3vh;
+  padding: 0.2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 4rem;
 }
 
-#section1 .search a:last-child{
-    width: 4vw;
+#section1 .search a:last-child {
+  width: 4vw;
 }
 
-#section1 .search a:hover{
-    background-color: white;
+#section1 .search a:hover {
+  background-color: white;
 }
 
 /* now comes popular items */
-#section1 .popular{
-    margin-top: 6rem;
-    display: flex;
-    align-items: center;
-    align-self: flex-start;
-    max-width: 100%;
-    padding-left: 0.1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#section1 .popular {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  max-width: 100%;
+  padding-left: 0.1rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
-#section1 .popular button:first-child{
-    font-weight: 400;
-    height: 4vh;
-    width: 5.7vw;
-    border-radius: 0.5rem;
-    padding: 0.1rem;
-    border: 1px solid #CFCFD4;
+#section1 .popular button:first-child {
+  font-weight: 400;
+  height: 4vh;
+  width: 5.7vw;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+  border: 1px solid #cfcfd4;
 }
 
-#section1 .popular .tag{
-    display: flex;
-    gap: 1rem;
-    font-weight: 600;
-    margin-left: 13.5vw;
+#section1 .popular .tag {
+  display: flex;
+  gap: 1rem;
+  font-weight: 600;
+  margin-left: 13.5vw;
 }
 
-#section1 .popular .tag #tag1{
-    background-color: #f3f3f6;
+#section1 .popular .tag #tag1 {
+  background-color: #f3f3f6;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  height: 4.3vh;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-radius: 4rem;
+  width: 5.2vw;
+}
+
+#section1 .popular button:last-child {
+  margin-left: 13vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cfcfd4;
+  padding: 0.5rem;
+  width: 5.7rem;
+  border-radius: 3rem;
+}
+
+/* now section2  */
+#section2 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  padding: 0 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "div1 div2 div3 div4"
+    "div5 div6 div7 div8"
+    "div9 div10 div11 div12";
+
+  gap: 1.7rem;
+}
+
+#section2 .div1 {
+  background-color: red;
+  overflow: hidden;
+  grid-area: div1;
+  border-radius: 1rem;
+  position: relative;
+}
+
+#section2 .div1 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div1 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div1 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div1 .overlay .span .span1
+{
     display: inline-block;
-    display: flex;
-    align-items: center;
-    height: 4.3vh;
-    padding: 0.3rem;
-    font-size: 1rem;
-    border-radius: 4rem;
-    width: 5.2vw;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div1 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
 }
 
-#section1 .popular button:last-child{
-    margin-left: 13vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #CFCFD4;
-    padding: 0.5rem;
-    width: 5.7rem;
-    border-radius: 3rem;
+#section2 .div1:hover .overlay {
+  bottom: 0;
 }
 
+
+
+#section2 .div2 {
+  background-color: lavenderblush;
+  grid-area: div2;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div2 > video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div2 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div2 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div2 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div2 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div2:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div3 {
+  background-color: salmon;
+  grid-area: div3;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div3 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div3 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div3 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div3 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div3 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div3:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div4 {
+  background-color: maroon;
+  grid-area: div4;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div4 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div4 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div4 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div4 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div4 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div4:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div5 {
+  background-color: olive;
+  grid-area: div5;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div5 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div5 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div5 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div5 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div5 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div5:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div6 {
+  background-color: papayawhip;
+  grid-area: div6;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div6 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div6 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div6 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div6 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div6 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div6:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div7 {
+  background-color: papayawhip;
+  grid-area: div7;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div7 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div7 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div7 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div7 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div7 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div7:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div8 {
+  background-color: khaki;
+  grid-area: div8;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div8 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div8 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div8 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div8 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div8 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div8:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div9 {
+  background-color: palevioletred;
+  grid-area: div9;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div9 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div9 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div9 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div9 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div9 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div9:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div10 {
+  background-color: pink;
+  grid-area: div10;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div10 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div10 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div10 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div10 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div10 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div10:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div11 {
+  background-color: navajowhite;
+  grid-area: div11;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div11 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div11 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div11 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div11 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div11 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div11:hover .overlay {
+  bottom: 0;
+}
+
+#section2 .div12 {
+  background-color: blue;
+  grid-area: div12;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#section2 .div12 > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#section2 .div12 .overlay {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  padding: 1rem;
+  color: white;
+}
+
+#section2 .div12 .overlay .span{
+    gap: 0.1rem;
+}
+
+#section2 .div12 .overlay .span .span1
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+#section2 .div12 .overlay .span .span2
+{
+    display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+}
+
+#section2 .div12:hover .overlay {
+  bottom: 0;
+}
