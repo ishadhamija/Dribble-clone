@@ -31,7 +31,7 @@ nav {
 }
 
 nav > img {
-  width: 10%;
+  width: 6rem;
   margin-right: 5%;
   max-width: 100%;
 }
@@ -116,7 +116,7 @@ nav .btn #btn2:hover {
   align-items: center;
   margin-top: 3rem;
   padding: 1.5rem;
-  width: 53%;
+  width: min(53%, 800px);
   gap: 1rem;
   font-family:
     system-ui,
@@ -236,7 +236,7 @@ nav .btn #btn2:hover {
 #section1 .popular button:first-child {
   font-weight: 400;
   height: 4vh;
-  width: 5.7vw;
+  width: 5.7rem;
   border-radius: 0.5rem;
   padding: 0.1rem;
   border: 1px solid #cfcfd4;
@@ -1565,7 +1565,7 @@ footer .icon {
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center;
-  padding: 0.1rem 11rem;
+  padding: 0.1rem 5vw;
   font-size: 0.9rem;
   max-width: 100%;
   font-family:
