@@ -156,9 +156,15 @@ nav .btn #btn2:hover {
   font-size: 1.1rem;
   background-color: #ec5e95;
   border-radius: 50%;
-  height: 5vh;
-  width: 2.5vw;
+  width: 2rem;
+  height: 2rem;
   color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 /* now comes trending search */
@@ -191,20 +197,21 @@ nav .btn #btn2:hover {
 
 #section1 .search a {
   background-color: #f3f3f6;
-  width: 6.9vw;
-  display: inline-block;
-  display: flex;
+  width: auto;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 4.3vh;
-  padding: 0.2rem;
+  padding: 0.4rem 1.2rem;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: inherit;
   border-radius: 4rem;
 }
 
 #section1 .search a:last-child {
-  width: 4vw;
+  width: auto;
 }
 
 #section1 .search a:hover {
@@ -260,9 +267,9 @@ nav .btn #btn2:hover {
   align-items: center;
   justify-content: center;
   height: 4.3vh;
-  padding: 0.4rem 1rem;     
-  font-size: 0.95rem; 
-  border-radius: 4rem; 
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 4rem;
   white-space: nowrap;
 }
 
@@ -282,15 +289,9 @@ nav .btn #btn2:hover {
 #section2 {
   width: 100%;
   display: grid;
-  padding: 0 2rem;
+  padding: 2rem 4rem;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas:
-    "div1 div2 div3 div4"
-    "div5 div6 div7 div8"
-    "div9 div10 div11 div12";
-
-  gap: 1.7rem;
+  gap: 2rem 1.5rem;
 }
 
 /* now div1 */
@@ -386,9 +387,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div1_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div2 */
@@ -484,9 +487,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div2_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* now comes div3 */
@@ -582,9 +587,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div3_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div4 */
@@ -680,9 +687,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div4_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div5 */
@@ -778,9 +787,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div5_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div6 */
@@ -876,9 +887,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div6_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div7 */
@@ -974,9 +987,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div7_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div8 */
@@ -1072,9 +1087,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div8_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div9 */
@@ -1170,9 +1187,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div9_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div10 */
@@ -1268,9 +1287,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div10_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div11 */
@@ -1366,9 +1387,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div11_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* here comes div12 */
@@ -1464,9 +1487,11 @@ nav .btn #btn2:hover {
 }
 
 #section2 .div12_description .div_one > img {
-  height: 3vh;
-  width: 1.5vw;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* now comes section3 */
@@ -1530,9 +1555,10 @@ nav .btn #btn2:hover {
 /* now comes footer */
 footer {
   display: flex;
-  margin-top: 4rem;
+  margin-top: 2rem;
   align-items: center;
-  padding: 0.1rem 11rem;
+  justify-content: space-between;
+  padding: 3rem 4rem;
   max-width: 100%;
   font-family:
     system-ui,
@@ -1549,30 +1575,34 @@ footer {
 }
 
 footer > img {
-  width: 10%;
-  margin-right: 5%;
-  max-width: 100%;
+  width: 6rem;
+  flex-shrink: 0;
 }
 
 footer .div {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
+  font-size: 0.95rem;
+  color: #3d3d4e;
+  cursor: pointer;
+  margin: auto;
   font-weight: 600;
 }
 
 footer .icon {
-  margin-left: auto;
-  gap: 1rem;
-  font-size: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.3rem;
+  color: #3d3d4e;
+  cursor: pointer;
 }
 
 .last {
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   align-items: center;
-  padding: 0.1rem 5vw;
-  font-size: 0.9rem;
+  justify-content: center;
+  padding: 1.5rem 4rem;
+  font-size: 0.88rem;
   max-width: 100%;
   font-family:
     system-ui,
@@ -1592,9 +1622,14 @@ footer .icon {
 .last > .div {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
-.last .div_last_part{
+.last .div2{
+  display: flex;
+  gap: 0.8rem;
+}
+
+.last .div_last_part {
   margin-left: auto;
 }
