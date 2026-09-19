@@ -317,13 +317,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div1 .overlay .span{
-    gap: 0.1rem;
+#section2 .div1 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div1 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div1 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -332,9 +331,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div1 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div1 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -348,13 +346,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div1 .div1_description{
+#section2 .whole_div1 .div1_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div1_description .div_one{
+#section2 .div1_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -362,7 +360,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div1_description .div_one span{
+#section2 .div1_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -371,26 +369,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div1_description .like{
+#section2 .div1_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div1_description .div_one>img{
+#section2 .div1_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
-
-
-
 
 /* here comes div2 */
 #section2 .div2 {
@@ -399,7 +392,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div2 > video {
@@ -423,13 +415,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div2 .overlay .span{
-    gap: 0.1rem;
+#section2 .div2 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div2 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div2 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -438,9 +429,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div2 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div2 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -454,13 +444,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div2 .div2_description{
+#section2 .whole_div2 .div2_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div2_description .div_one{
+#section2 .div2_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -468,7 +458,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div2_description .div_one span{
+#section2 .div2_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -477,23 +467,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div2_description .like{
+#section2 .div2_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div2_description .div_one>img{
+#section2 .div2_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* now comes div3 */
 #section2 .div3 {
@@ -502,7 +490,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div3 > img {
@@ -526,13 +513,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div3 .overlay .span{
-    gap: 0.1rem;
+#section2 .div3 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div3 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div3 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -541,9 +527,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div3 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div3 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -557,13 +542,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div3 .div3_description{
+#section2 .whole_div3 .div3_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div3_description .div_one{
+#section2 .div3_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -571,7 +556,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div3_description .div_one span{
+#section2 .div3_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -580,23 +565,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div3_description .like{
+#section2 .div3_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div3_description .div_one>img{
+#section2 .div3_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div4 */
 #section2 .div4 {
@@ -605,7 +588,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div4 > img {
@@ -629,13 +611,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div4 .overlay .span{
-    gap: 0.1rem;
+#section2 .div4 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div4 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div4 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -644,9 +625,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div4 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div4 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -660,13 +640,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div4 .div4_description{
+#section2 .whole_div4 .div4_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div4_description .div_one{
+#section2 .div4_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -674,7 +654,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div4_description .div_one span{
+#section2 .div4_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -683,23 +663,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div4_description .like{
+#section2 .div4_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div4_description .div_one>img{
+#section2 .div4_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div5 */
 #section2 .div5 {
@@ -708,7 +686,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div5 > img {
@@ -732,13 +709,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div5 .overlay .span{
-    gap: 0.1rem;
+#section2 .div5 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div5 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div5 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -747,9 +723,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div5 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div5 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -763,13 +738,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div5 .div5_description{
+#section2 .whole_div5 .div5_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div5_description .div_one{
+#section2 .div5_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -777,7 +752,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div5_description .div_one span{
+#section2 .div5_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -786,23 +761,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div5_description .like{
+#section2 .div5_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div5_description .div_one>img{
+#section2 .div5_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div6 */
 #section2 .div6 {
@@ -811,7 +784,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div6 > img {
@@ -835,13 +807,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div6 .overlay .span{
-    gap: 0.1rem;
+#section2 .div6 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div6 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div6 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -850,9 +821,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div6 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div6 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -866,13 +836,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div6 .div6_description{
+#section2 .whole_div6 .div6_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div6_description .div_one{
+#section2 .div6_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -880,7 +850,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div6_description .div_one span{
+#section2 .div6_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -889,23 +859,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div6_description .like{
+#section2 .div6_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div6_description .div_one>img{
+#section2 .div6_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div7 */
 #section2 .div7 {
@@ -914,7 +882,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div7 > img {
@@ -938,13 +905,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div7 .overlay .span{
-    gap: 0.1rem;
+#section2 .div7 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div7 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div7 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -953,9 +919,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div7 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div7 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -969,13 +934,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div7 .div7_description{
+#section2 .whole_div7 .div7_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div7_description .div_one{
+#section2 .div7_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -983,7 +948,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div7_description .div_one span{
+#section2 .div7_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -992,18 +957,17 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div7_description .like{
+#section2 .div7_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div7_description .div_one>img{
+#section2 .div7_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
@@ -1016,7 +980,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div8 > img {
@@ -1040,13 +1003,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div8 .overlay .span{
-    gap: 0.1rem;
+#section2 .div8 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div8 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div8 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1055,9 +1017,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div8 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div8 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1071,13 +1032,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div8 .div8_description{
+#section2 .whole_div8 .div8_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div8_description .div_one{
+#section2 .div8_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1085,7 +1046,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div8_description .div_one span{
+#section2 .div8_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -1094,23 +1055,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div8_description .like{
+#section2 .div8_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div8_description .div_one>img{
+#section2 .div8_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div9 */
 #section2 .div9 {
@@ -1119,7 +1078,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div9 > img {
@@ -1143,13 +1101,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div9 .overlay .span{
-    gap: 0.1rem;
+#section2 .div9 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div9 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div9 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1158,9 +1115,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div9 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div9 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1174,13 +1130,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div9 .div9_description{
+#section2 .whole_div9 .div9_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div9_description .div_one{
+#section2 .div9_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1188,7 +1144,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div9_description .div_one span{
+#section2 .div9_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -1197,23 +1153,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div9_description .like{
+#section2 .div9_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div9_description .div_one>img{
+#section2 .div9_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div10 */
 #section2 .div10 {
@@ -1222,7 +1176,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div10 > img {
@@ -1246,13 +1199,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div10 .overlay .span{
-    gap: 0.1rem;
+#section2 .div10 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div10 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div10 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1261,9 +1213,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div10 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div10 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1277,13 +1228,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div10 .div10_description{
+#section2 .whole_div10 .div10_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div10_description .div_one{
+#section2 .div10_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1291,7 +1242,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div10_description .div_one span{
+#section2 .div10_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -1300,23 +1251,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div10_description .like{
+#section2 .div10_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div10_description .div_one>img{
+#section2 .div10_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div11 */
 #section2 .div11 {
@@ -1325,7 +1274,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div11 > img {
@@ -1349,13 +1297,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div11 .overlay .span{
-    gap: 0.1rem;
+#section2 .div11 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div11 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div11 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1364,9 +1311,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div11 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div11 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1380,13 +1326,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div11 .div11_description{
+#section2 .whole_div11 .div11_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div11_description .div_one{
+#section2 .div11_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1394,7 +1340,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div11_description .div_one span{
+#section2 .div11_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -1403,23 +1349,21 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div11_description .like{
+#section2 .div11_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div11_description .div_one>img{
+#section2 .div11_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
 }
-
 
 /* here comes div12 */
 #section2 .div12 {
@@ -1428,7 +1372,6 @@ nav .btn #btn2:hover {
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-
 }
 
 #section2 .div12 > img {
@@ -1452,13 +1395,12 @@ nav .btn #btn2:hover {
   color: white;
 }
 
-#section2 .div12 .overlay .span{
-    gap: 0.1rem;
+#section2 .div12 .overlay .span {
+  gap: 0.1rem;
 }
 
-#section2 .div12 .overlay .span .span1
-{
-    display: inline-block;
+#section2 .div12 .overlay .span .span1 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1467,9 +1409,8 @@ nav .btn #btn2:hover {
   padding: 0.5rem;
   padding-left: 0.7rem;
 }
-#section2 .div12 .overlay .span .span2
-{
-    display: inline-block;
+#section2 .div12 .overlay .span .span2 {
+  display: inline-block;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
@@ -1483,13 +1424,13 @@ nav .btn #btn2:hover {
   bottom: 0;
 }
 
-#section2 .whole_div12 .div12_description{
+#section2 .whole_div12 .div12_description {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-#section2 .div12_description .div_one{
+#section2 .div12_description .div_one {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1497,7 +1438,7 @@ nav .btn #btn2:hover {
   gap: 0.3rem;
 }
 
-#section2 .div12_description .div_one span{
+#section2 .div12_description .div_one span {
   display: block;
   background-color: #a1a1bd;
   color: white;
@@ -1506,19 +1447,148 @@ nav .btn #btn2:hover {
   padding-left: 0.2rem;
 }
 
-#section2 .div12_description .like{
+#section2 .div12_description .like {
   display: flex;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #A1A1AA;
+  color: #a1a1aa;
   align-items: center;
   margin-left: auto;
   gap: 0.5rem;
-
 }
 
-#section2 .div12_description .div_one>img{
+#section2 .div12_description .div_one > img {
   height: 3vh;
   width: 1.5vw;
   border-radius: 50%;
+}
+
+/* now comes section3 */
+#section3 .sign_up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#section3 .sign_up .btn {
+  font-weight: 600;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  width: 11rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+}
+
+#section3 .anime {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 3rem;
+}
+
+#section3 .scroll_containers {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  width: max-content;
+  margin-top: 5rem;
+  animation: slide 15s linear infinite;
+}
+
+#section3 .scroll_containers > img {
+  width: auto;
+  flex-shrink: 0;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* now comes footer */
+footer {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  padding: 0.1rem 11rem;
+  max-width: 100%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+footer > img {
+  width: 10%;
+  margin-right: 5%;
+  max-width: 100%;
+}
+
+footer .div {
+  display: flex;
+  gap: 2.5rem;
+  font-weight: 600;
+}
+
+footer .icon {
+  margin-left: auto;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.last {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  padding: 0.1rem 11rem;
+  font-size: 0.9rem;
+  max-width: 100%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: rgb(161, 161, 170);
+}
+
+.last > .div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.last .div_last_part{
+  margin-left: auto;
 }
